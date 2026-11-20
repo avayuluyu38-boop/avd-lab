@@ -1,0 +1,400 @@
+11-20 14:40:30.806  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.sharedstoragebackup
+11-20 14:40:30.806  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.role.notes.enabled
+11-20 14:40:30.806  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.internal.display.cutout.emulation.emu01
+11-20 14:40:30.806  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.bookmarkprovider
+11-20 14:40:30.806  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.google.android.onetimeinitializer
+11-20 14:40:30.806  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.pacprocessor
+11-20 14:40:30.806  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.cts.ctsshim
+11-20 14:40:30.806  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.systemui.emulation.pixel_4
+11-20 14:40:30.806  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.internal.display.cutout.emulation.hole
+11-20 14:40:30.806  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.internal.display.cutout.emulation.double
+11-20 14:40:30.806  5676  5728 I Finsky  : [60] ItemStore: Not cached: android.auto_generated_rro_vendor__
+11-20 14:40:30.806  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.google.android.gms.supervision
+11-20 14:40:30.806  5676  5728 I Finsky  : [60] ItemStore: Not cached: android.auto_generated_rro_product__
+11-20 14:40:30.806  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.google.android.overlay.pixelconfigcommon
+11-20 14:40:30.806  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.bluetoothmidiservice
+11-20 14:40:30.806  5676  5728 I Finsky  : [60] ItemStore: Missing some fields: com.google.android.tts, 6
+11-20 14:40:30.806  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.wallpaper.livepicker
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Missing some fields: com.google.android.apps.docs, 6
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.musicfx
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.internal.systemui.navbar.transparent
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Missing some fields: com.google.android.webview, 6
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.google.android.providers.media.module
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Missing some fields: com.google.android.calendar, 6
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.traceur.auto_generated_rro_product__
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.google.android.runtime
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Missing some fields: com.google.android.inputmethod.latin, 6
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.wallpaperbackup
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.google.android.apps.nexuslauncher
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.google.android.safetycenter.resources
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.internal.emulation.pixel_fold
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.systemui.accessibility.accessibilitymenu
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.systemui.auto_generated_rro_vendor__
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Missing some fields: com.google.android.contacts, 6
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Missing some fields: com.android.chrome, 6
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.emulator.multidisplay
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.google.android.overlay.googleconfig
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.google.android.configupdater
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.internal.emulation.pixel_6a
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.internal.emulation.pixel_3a_xl
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.internal.emulation.pixel_3
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.systemui.auto_generated_rro_product__
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.providers.media
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Missing some fields: com.google.android.apps.wellbeing, 6
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.server.telecom
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.systemui.emulation.pixel_6a
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.google.android.projection.gearhead
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.localtransport
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.internal.emulation.pixel_7a
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.google.android.health.connect.backuprestore
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.google.android.telephony.satellite
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.systemui.emulation.pixel_3_xl
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.google.android.healthconnect.controller
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.google.android.vndk.v34
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.carrierconfig.auto_generated_rro_vendor__
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.phone.auto_generated_rro_product__
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.providers.settings
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.internal.systemui.navbar.gestural_extra_wide_back
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Missing some fields: com.google.android.apps.messaging, 6
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.systemui.emulation.pixel_8_pro
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.systemui.emulation.pixel_7a
+11-20 14:40:30.807  5676  5728 I Finsky  : [60] ItemStore: Not cached: com.android.managedprovisioning.auto_generated_rro_product__
+11-20 14:40:30.814  5676  5793 I Finsky  : [67] ItemStore: Missing some fields: com.google.android.googlequicksearchbox, 6
+11-20 14:40:30.814  5676  5727 I Finsky  : [59] ItemStore: Missing some fields: com.google.android.apps.restore, 6
+11-20 14:40:30.862   498  1675 D ConnectivityService: requestNetwork for uid/pid:10132/7477 activeRequest: null callbackRequest: 179 [NetworkRequest [ REQUEST id=180, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+11-20 14:40:30.868   498   715 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=180, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:30.874   498   715 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=180, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:30.874   498   715 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=180, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:30.874   498   715 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=180, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:30.878  5676  5676 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.devicelock' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+11-20 14:40:30.892  5676  5676 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.apex.cts.shim' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+11-20 14:40:31.103   498   565 D ConnectivityService: requestNetwork for uid/pid:10132/7477 activeRequest: null callbackRequest: 181 [NetworkRequest [ REQUEST id=182, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+11-20 14:40:31.106   498   715 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=182, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:31.109   498   715 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=182, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:31.109   498   715 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=182, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:31.109   498   715 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=182, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:31.142  5676  5676 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.virt' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+11-20 14:40:31.174  5676  5676 W Finsky  : [2] STU: Failed to get storage stats for package 'com.android.i18n' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+11-20 14:40:31.319  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.google.android.googlesdksetup
+11-20 14:40:31.329  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.google.android.networkstack.tethering
+11-20 14:40:31.329  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.android.systemui
+11-20 14:40:31.329  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.android.systemui.emulation.pixel_3
+11-20 14:40:31.329  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.android.providers.partnerbookmarks
+11-20 14:40:31.329  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.android.phone
+11-20 14:40:31.329  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.google.android.ondevicepersonalization.services
+11-20 14:40:31.329  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.android.certinstaller
+11-20 14:40:31.329  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.google.android.rkpdapp
+11-20 14:40:31.329  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.android.providers.downloads.ui
+11-20 14:40:31.329  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.android.calllogbackup
+11-20 14:40:31.329  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.android.internal.emulation.pixel_8
+11-20 14:40:31.329  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.android.internal.emulation.pixel_6
+11-20 14:40:31.329  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.google.android.federatedcompute
+11-20 14:40:31.329  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.android.providers.settings.auto_generated_rro_vendor__
+11-20 14:40:31.330  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.android.internal.emulation.pixel_7
+11-20 14:40:31.330  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.android.shell
+11-20 14:40:31.330  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.google.android.apps.wallpaper.nexus
+11-20 14:40:31.330  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.google.android.overlay.googlewebview
+11-20 14:40:31.330  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.google.android.connectivity.resources
+11-20 14:40:31.330  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.google.android.ext.shared
+11-20 14:40:31.330  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.android.providers.userdictionary
+11-20 14:40:31.330  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.android.mms.service
+11-20 14:40:31.330  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.google.android.cellbroadcastreceiver
+11-20 14:40:31.330  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.android.internal.display.cutout.emulation.tall
+11-20 14:40:31.330  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.google.android.networkstack.tethering.emulator
+11-20 14:40:31.330  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.google.android.sdksandbox
+11-20 14:40:31.332  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.android.internal.emulation.pixel_8_pro
+11-20 14:40:31.332  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.android.systemui.emulation.pixel_8
+11-20 14:40:31.332  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.google.android.cellbroadcastservice
+11-20 14:40:31.332  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.google.android.overlay.permissioncontroller
+11-20 14:40:31.332  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.noteslite.app
+11-20 14:40:31.332  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.android.intentresolver
+11-20 14:40:31.332  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.android.bips
+11-20 14:40:31.335  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.systemui.emulation.pixel_3a_xl
+11-20 14:40:31.335  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.providers.telephony
+11-20 14:40:31.335  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.internal.display.cutout.emulation.waterfall
+11-20 14:40:31.335  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.odad
+11-20 14:40:31.335  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.simappdialog
+11-20 14:40:31.335  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.internal.emulation.pixel_5
+11-20 14:40:31.335  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.wifi.resources
+11-20 14:40:31.335  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.providers.contacts
+11-20 14:40:31.335  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.systemui.emulation.pixel_7
+11-20 14:40:31.335  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.internal.emulation.pixel_2_xl
+11-20 14:40:31.335  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.mtp
+11-20 14:40:31.335  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.server.telecom.auto_generated_rro_product__
+11-20 14:40:31.335  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.internal.emulation.pixel_4_xl
+11-20 14:40:31.335  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.vending
+11-20 14:40:31.336  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.imsserviceentitlement
+11-20 14:40:31.336  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.internal.systemui.navbar.gestural
+11-20 14:40:31.336  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.printspooler
+11-20 14:40:31.336  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.se
+11-20 14:40:31.336  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.htmlviewer
+11-20 14:40:31.336  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.externalstorage
+11-20 14:40:31.336  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.hotspot2.osulogin
+11-20 14:40:31.336  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.internal.emulation.pixel_4
+11-20 14:40:31.336  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.phone.auto_generated_rro_vendor__
+11-20 14:40:31.336  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.partnersetup
+11-20 14:40:31.336  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.packageinstaller
+11-20 14:40:31.336  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.wifi.dialog
+11-20 14:40:31.336  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.systemui.emulation.pixel_fold
+11-20 14:40:31.336  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.credentialmanager
+11-20 14:40:31.336  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.providers.blockednumber
+11-20 14:40:31.336  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.emergency
+11-20 14:40:31.336  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.settings
+11-20 14:40:31.336  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.adservices.api
+11-20 14:40:31.336  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.camera2
+11-20 14:40:31.336  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.carrierconfig.auto_generated_rro_product__
+11-20 14:40:31.336  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.emergency.auto_generated_rro_product__
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.ons
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.settings.intelligence
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.internal.emulation.pixel_7_pro
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.bluetooth
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.i18n
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.dreams.basic
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.apps.customization.pixel
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.internal.systemui.navbar.twobutton
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.internal.systemui.navbar.gestural_narrow_back
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.connectivity.resources.goldfish.overlay
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.emulator.radio.config
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.companiondevicemanager
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.cts.priv.ctsshim
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.cellbroadcastreceiver
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.internal.display.cutout.emulation.corner
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.systemui.accessibility.accessibilitymenu.auto_generated_rro_product__
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.stk
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.internal.systemui.navbar.gestural_wide_back
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.systemui.emulation.pixel_6
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.gsf
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.managedprovisioning
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.internal.systemui.navbar.threebutton
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.virt
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.nfc.auto_generated_rro_product__
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.soundpicker
+11-20 14:40:31.337  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.internal.emulation.pixel_6_pro
+11-20 14:40:31.338  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.bips.auto_generated_rro_product__
+11-20 14:40:31.338  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.egg
+11-20 14:40:31.338  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.inputdevices
+11-20 14:40:31.338  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.internal.emulation.pixel_3_xl
+11-20 14:40:31.338  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.carrierconfig
+11-20 14:40:31.338  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.location.fused
+11-20 14:40:31.338  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.providers.settings.auto_generated_rro_product__
+11-20 14:40:31.338  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.storagemanager
+11-20 14:40:31.338  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.devicelock
+11-20 14:40:31.338  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.theme.font.notoserifsource
+11-20 14:40:31.338  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.widevine.nonupdatable
+11-20 14:40:31.338  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.systemui.emulation.pixel_7_pro
+11-20 14:40:31.338  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.settings.auto_generated_rro_product__
+11-20 14:40:31.338  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.proxyhandler
+11-20 14:40:31.338  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.suda07.update
+11-20 14:40:31.338  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.overlay.largescreensettingsprovider
+11-20 14:40:31.338  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.dynsystem
+11-20 14:40:31.339  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.nfc
+11-20 14:40:31.339  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.soundpicker
+11-20 14:40:31.339  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.storagemanager.auto_generated_rro_product__
+11-20 14:40:31.339  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.providers.telephony.auto_generated_rro_product__
+11-20 14:40:31.339  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.printservice.recommendation
+11-20 14:40:31.339  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.uwb.resources
+11-20 14:40:31.339  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.simappdialog.auto_generated_rro_product__
+11-20 14:40:31.339  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.devicelockcontroller
+11-20 14:40:31.339  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.vpndialogs
+11-20 14:40:31.339  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.internal.emulation.pixel_3a
+11-20 14:40:31.339  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.cameraextensions
+11-20 14:40:31.339  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.keychain
+11-20 14:40:31.339  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.systemui.plugin.globalactions.wallet
+11-20 14:40:31.339  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item android
+11-20 14:40:31.339  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.wallpapercropper
+11-20 14:40:31.339  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.apex.cts.shim
+11-20 14:40:31.339  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.providers.contacts.auto_generated_rro_product__
+11-20 14:40:31.339  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.traceur
+11-20 14:40:31.339  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.systemui.gxoverlay
+11-20 14:40:31.339  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.systemui.emulation.pixel_3a
+11-20 14:40:31.339  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.providers.calendar
+11-20 14:40:31.339  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.systemui.emulation.pixel_4a
+11-20 14:40:31.339  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.internal.emulation.pixel_4a
+11-20 14:40:31.339  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.overlay.largescreenconfig
+11-20 14:40:31.339  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.systemui.emulation.pixel_4_xl
+11-20 14:40:31.340  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.bluetooth
+11-20 14:40:31.340  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.virtualmachine.res
+11-20 14:40:31.340  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.backupconfirm
+11-20 14:40:31.340  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.markup
+11-20 14:40:31.340  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.nearby.halfsheet
+11-20 14:40:31.340  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.providers.downloads
+11-20 14:40:31.340  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.carrierdefaultapp
+11-20 14:40:31.340  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.tag
+11-20 14:40:31.340  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.feedback
+11-20 14:40:31.340  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.systemui.emulation.pixel_6_pro
+11-20 14:40:31.340  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.sharedstoragebackup
+11-20 14:40:31.340  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.role.notes.enabled
+11-20 14:40:31.340  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.internal.display.cutout.emulation.emu01
+11-20 14:40:31.340  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.android.bookmarkprovider
+11-20 14:40:31.354  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.android.pacprocessor
+11-20 14:40:31.354  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.android.cts.ctsshim
+11-20 14:40:31.354  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.android.systemui.emulation.pixel_4
+11-20 14:40:31.354  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.android.internal.display.cutout.emulation.hole
+11-20 14:40:31.354  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.android.internal.display.cutout.emulation.double
+11-20 14:40:31.354  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item android.auto_generated_rro_vendor__
+11-20 14:40:31.355  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item android.auto_generated_rro_product__
+11-20 14:40:31.355  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.google.android.overlay.pixelconfigcommon
+11-20 14:40:31.355  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.android.bluetoothmidiservice
+11-20 14:40:31.355  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.android.wallpaper.livepicker
+11-20 14:40:31.355  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.android.musicfx
+11-20 14:40:31.355  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.android.internal.systemui.navbar.transparent
+11-20 14:40:31.355  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.google.android.providers.media.module
+11-20 14:40:31.355  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.android.traceur.auto_generated_rro_product__
+11-20 14:40:31.355  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.google.android.runtime
+11-20 14:40:31.355  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.android.wallpaperbackup
+11-20 14:40:31.355  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.google.android.apps.nexuslauncher
+11-20 14:40:31.355  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.google.android.safetycenter.resources
+11-20 14:40:31.355  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.android.internal.emulation.pixel_fold
+11-20 14:40:31.355  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.android.systemui.accessibility.accessibilitymenu
+11-20 14:40:31.355  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.android.systemui.auto_generated_rro_vendor__
+11-20 14:40:31.355  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.android.emulator.multidisplay
+11-20 14:40:31.356  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.google.android.overlay.googleconfig
+11-20 14:40:31.356  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.google.android.configupdater
+11-20 14:40:31.356  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.android.internal.emulation.pixel_6a
+11-20 14:40:31.356  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.android.internal.emulation.pixel_3a_xl
+11-20 14:40:31.357  5676  5727 E Finsky  : [59] ItemStore: getItems RPC failed for item com.android.systemui.auto_generated_rro_product__
+11-20 14:40:31.357  5676  5727 E Finsky  : [59] ItemStore: getItems RPC failed for item com.android.providers.media
+11-20 14:40:31.357  5676  5727 E Finsky  : [59] ItemStore: getItems RPC failed for item com.android.server.telecom
+11-20 14:40:31.357  5676  5727 E Finsky  : [59] ItemStore: getItems RPC failed for item com.android.systemui.emulation.pixel_6a
+11-20 14:40:31.358  5676  5727 E Finsky  : [59] ItemStore: getItems RPC failed for item com.android.localtransport
+11-20 14:40:31.358  5676  5727 E Finsky  : [59] ItemStore: getItems RPC failed for item com.android.internal.emulation.pixel_7a
+11-20 14:40:31.358  5676  5727 E Finsky  : [59] ItemStore: getItems RPC failed for item com.google.android.health.connect.backuprestore
+11-20 14:40:31.358  5676  5727 E Finsky  : [59] ItemStore: getItems RPC failed for item com.google.android.telephony.satellite
+11-20 14:40:31.358  5676  5727 E Finsky  : [59] ItemStore: getItems RPC failed for item com.android.systemui.emulation.pixel_3_xl
+11-20 14:40:31.358  5676  5727 E Finsky  : [59] ItemStore: getItems RPC failed for item com.google.android.healthconnect.controller
+11-20 14:40:31.358  5676  5727 E Finsky  : [59] ItemStore: getItems RPC failed for item com.google.android.vndk.v34
+11-20 14:40:31.358  5676  5727 E Finsky  : [59] ItemStore: getItems RPC failed for item com.android.carrierconfig.auto_generated_rro_vendor__
+11-20 14:40:31.358  5676  5727 E Finsky  : [59] ItemStore: getItems RPC failed for item com.android.phone.auto_generated_rro_product__
+11-20 14:40:31.358  5676  5727 E Finsky  : [59] ItemStore: getItems RPC failed for item com.android.providers.settings
+11-20 14:40:31.358  5676  5727 E Finsky  : [59] ItemStore: getItems RPC failed for item com.android.internal.systemui.navbar.gestural_extra_wide_back
+11-20 14:40:31.358  5676  5727 E Finsky  : [59] ItemStore: getItems RPC failed for item com.android.systemui.emulation.pixel_8_pro
+11-20 14:40:31.358  5676  5727 E Finsky  : [59] ItemStore: getItems RPC failed for item com.android.systemui.emulation.pixel_7a
+11-20 14:40:31.358  5676  5727 E Finsky  : [59] ItemStore: getItems RPC failed for item com.android.managedprovisioning.auto_generated_rro_product__
+11-20 14:40:31.359  5676  5793 E Finsky  : [67] ItemStore: getItems RPC failed for item com.android.internal.emulation.pixel_3
+11-20 14:40:31.360  5676  5728 E Finsky  : [60] ItemStore: getItems RPC failed for item com.android.systemui.emulation.pixel_5
+11-20 14:40:31.360  5676  5709 E Finsky  : [57] ItemStore: getItems RPC failed for item com.google.android.onetimeinitializer
+11-20 14:40:31.389  5676  5676 W Finsky  : [2] STU: Failed to get storage stats for package 'com.google.android.runtime' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+11-20 14:40:31.428   498   722 D ConnectivityService: releasing NetworkRequest [ REQUEST id=180, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ] (release request)
+11-20 14:40:31.429   498   722 D ConnectivityService: releasing NetworkRequest [ REQUEST id=182, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ] (release request)
+11-20 14:40:31.446  5676  5709 I Finsky  : [57] AU: Cannot update com.google.android.gms.supervision because package is disabled
+11-20 14:40:31.611  5676  5709 I Finsky  : [57] AIM: AppInfoManager-Perf > getApps > data collection finished
+11-20 14:40:31.613  5676  5700 I Finsky  : [50] AU2: current managed auto update config: AUTO_UPDATE_POLICY_UNSPECIFIED
+11-20 14:40:31.613  5676  5700 I Finsky  : [50] AU2: current managed auto update config: AUTO_UPDATE_POLICY_UNSPECIFIED
+11-20 14:40:31.641  5676  5709 I Finsky  : [57] SCH: jobFinished: 10-101. TimeElapsed: 1323ms.
+11-20 14:40:31.641  5676  5709 I Finsky  : [57] WM::SCH: Logging work end for 10-101
+11-20 14:40:31.652  5676  5727 I Finsky  : [59] SCH: Scheduling phonesky job Id: 1-1337, CT: 1795185571061, Constraints: [{ L: 14399985, D: 55891911, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+11-20 14:40:31.652  5676  5727 I Finsky  : [59] SCH: Scheduling phonesky job Id: 10-4, CT: 1795185569690, Constraints: [{ L: 1200000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+11-20 14:40:31.652  5676  5727 I Finsky  : [59] SCH: Scheduling phonesky job Id: 10-11, CT: 1795185569690, Constraints: [{ L: 600000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+11-20 14:40:31.652  5676  5727 I Finsky  : [59] SCH: Scheduling phonesky job Id: 10-26, CT: 1795185569695, Constraints: [{ L: 600000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+11-20 14:40:31.652  5676  5727 I Finsky  : [59] SCH: Scheduling phonesky job Id: 10-123, CT: 1795185569697, Constraints: [{ L: 600000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+11-20 14:40:31.654  5676  5728 I Finsky  : [60] SCH: Scheduling 1 system job(s)
+11-20 14:40:31.654  5676  5728 I Finsky  : [60] SCH: Scheduling system job Id: 9226, L: 538036, D: 55831318, C: false, I: false, N: 1
+11-20 14:40:31.663  5676  7531 I Finsky  : [190] SCH: job service finished with id 9219.
+11-20 14:40:32.073   498   895 D ConnectivityService: requestNetwork for uid/pid:10132/7574 activeRequest: null callbackRequest: 184 [NetworkRequest [ REQUEST id=185, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+11-20 14:40:32.074   498   715 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=185, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:32.074   498   715 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=185, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:32.074   498   715 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=185, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:32.074   498   715 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=185, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:32.154   498  2537 D ConnectivityService: requestNetwork for uid/pid:10132/7574 activeRequest: null callbackRequest: 186 [NetworkRequest [ REQUEST id=187, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+11-20 14:40:32.156   498   715 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=187, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:32.156   498   715 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=187, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:32.156   498   715 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=187, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:32.156   498   715 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=187, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:32.227   498   722 D ConnectivityService: releasing NetworkRequest [ REQUEST id=185, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ] (release request)
+11-20 14:40:32.227   498   722 D ConnectivityService: releasing NetworkRequest [ REQUEST id=187, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ] (release request)
+11-20 14:40:33.039   498  2539 D ConnectivityService: requestNetwork for uid/pid:10132/7645 activeRequest: null callbackRequest: 189 [NetworkRequest [ REQUEST id=190, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+11-20 14:40:33.041   498   715 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=190, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:33.041   498   715 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=190, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:33.041   498   715 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=190, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:33.041   498   715 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=190, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:33.072   498  2539 D ConnectivityService: requestNetwork for uid/pid:10132/7645 activeRequest: null callbackRequest: 191 [NetworkRequest [ REQUEST id=192, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+11-20 14:40:33.074   498   715 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=192, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:33.074   498   715 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=192, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:33.074   498   715 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=192, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:33.074   498   715 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=192, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:33.187   498   722 D ConnectivityService: releasing NetworkRequest [ REQUEST id=190, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ] (release request)
+11-20 14:40:33.187   498   722 D ConnectivityService: releasing NetworkRequest [ REQUEST id=192, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ] (release request)
+11-20 14:40:34.019   498  1908 D ConnectivityService: requestNetwork for uid/pid:10132/7711 activeRequest: null callbackRequest: 194 [NetworkRequest [ REQUEST id=195, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+11-20 14:40:34.020   498   715 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=195, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:34.020   498   715 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=195, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:34.020   498   715 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=195, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:34.020   498   715 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=195, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:34.107   498   895 D ConnectivityService: requestNetwork for uid/pid:10132/7711 activeRequest: null callbackRequest: 196 [NetworkRequest [ REQUEST id=197, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+11-20 14:40:34.112   498   715 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=197, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:34.112   498   715 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=197, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:34.112   498   715 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=197, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:34.112   498   715 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=197, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:34.200   498   722 D ConnectivityService: releasing NetworkRequest [ REQUEST id=195, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ] (release request)
+11-20 14:40:34.200   498   722 D ConnectivityService: releasing NetworkRequest [ REQUEST id=197, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ] (release request)
+11-20 14:40:35.051   498   511 D ConnectivityService: requestNetwork for uid/pid:10132/7774 activeRequest: null callbackRequest: 199 [NetworkRequest [ REQUEST id=200, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+11-20 14:40:35.052   498   715 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=200, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:35.052   498   715 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=200, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:35.052   498   715 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=200, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:35.052   498   715 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=200, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:35.108   498   511 D ConnectivityService: requestNetwork for uid/pid:10132/7774 activeRequest: null callbackRequest: 201 [NetworkRequest [ REQUEST id=202, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+11-20 14:40:35.109   498   715 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=202, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:35.109   498   715 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=202, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:35.109   498   715 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=202, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:35.109   498   715 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=202, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:35.277   498   722 D ConnectivityService: releasing NetworkRequest [ REQUEST id=200, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ] (release request)
+11-20 14:40:35.277   498   722 D ConnectivityService: releasing NetworkRequest [ REQUEST id=202, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ] (release request)
+11-20 14:40:36.256   498  2537 D ConnectivityService: requestNetwork for uid/pid:10132/7846 activeRequest: null callbackRequest: 204 [NetworkRequest [ REQUEST id=205, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+11-20 14:40:36.258   498   715 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=205, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:36.266   498   715 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=205, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:36.266   498   715 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=205, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:36.266   498   715 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=205, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:36.321   498  2537 D ConnectivityService: requestNetwork for uid/pid:10132/7846 activeRequest: null callbackRequest: 206 [NetworkRequest [ REQUEST id=207, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+11-20 14:40:36.324   498   715 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=207, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:36.332   498   715 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=207, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:36.332   498   715 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=207, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:36.332   498   715 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=207, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:36.374   498   722 D ConnectivityService: releasing NetworkRequest [ REQUEST id=205, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ] (release request)
+11-20 14:40:36.374   498   722 D ConnectivityService: releasing NetworkRequest [ REQUEST id=207, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ] (release request)
+11-20 14:40:37.206   498  2537 D ConnectivityService: requestNetwork for uid/pid:10132/7924 activeRequest: null callbackRequest: 209 [NetworkRequest [ REQUEST id=210, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+11-20 14:40:37.211   498   715 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=210, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:37.211   498   715 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=210, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:37.211   498   715 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=210, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:37.211   498   715 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=210, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:37.278   498  1092 D ConnectivityService: requestNetwork for uid/pid:10132/7924 activeRequest: null callbackRequest: 211 [NetworkRequest [ REQUEST id=212, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+11-20 14:40:37.279   498   715 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=212, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:37.280   498   715 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=212, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:37.280   498   715 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=212, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:37.280   498   715 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=212, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:37.436   498   722 D ConnectivityService: releasing NetworkRequest [ REQUEST id=210, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ] (release request)
+11-20 14:40:37.436   498   722 D ConnectivityService: releasing NetworkRequest [ REQUEST id=212, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ] (release request)
+11-20 14:40:38.513   498  1718 D ConnectivityService: requestNetwork for uid/pid:10132/7991 activeRequest: null callbackRequest: 214 [NetworkRequest [ REQUEST id=215, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+11-20 14:40:38.518   498   715 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=215, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:38.520   498   715 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=215, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:38.528   498   715 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=215, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:38.528   498   715 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=215, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:38.586   498  1092 D ConnectivityService: requestNetwork for uid/pid:10132/7991 activeRequest: null callbackRequest: 216 [NetworkRequest [ REQUEST id=217, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+11-20 14:40:38.588   498   715 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=217, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:38.590   498   715 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=217, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:38.590   498   715 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=217, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:38.590   498   715 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=217, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:38.711   498   722 D ConnectivityService: releasing NetworkRequest [ REQUEST id=215, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ] (release request)
+11-20 14:40:38.712   498   722 D ConnectivityService: releasing NetworkRequest [ REQUEST id=217, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ] (release request)
+11-20 14:40:39.976   498  1092 D ConnectivityService: requestNetwork for uid/pid:10132/8068 activeRequest: null callbackRequest: 219 [NetworkRequest [ REQUEST id=220, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+11-20 14:40:39.977   498   715 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=220, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:39.977   498   715 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=220, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:39.977   498   715 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=220, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:39.977   498   715 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=220, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:40.018   498  1092 D ConnectivityService: requestNetwork for uid/pid:10132/8068 activeRequest: null callbackRequest: 221 [NetworkRequest [ REQUEST id=222, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+11-20 14:40:40.020   498   715 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=222, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:40.020   498   715 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=222, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:40.020   498   715 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=222, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:40.021   498   715 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=222, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:40.149   498   722 D ConnectivityService: releasing NetworkRequest [ REQUEST id=220, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ] (release request)
+11-20 14:40:40.149   498   722 D ConnectivityService: releasing NetworkRequest [ REQUEST id=222, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ] (release request)
+11-20 14:40:41.267   498   511 D ConnectivityService: requestNetwork for uid/pid:10132/8136 activeRequest: null callbackRequest: 224 [NetworkRequest [ REQUEST id=225, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+11-20 14:40:41.268   498   715 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=225, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:41.268   498   715 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=225, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:41.268   498   715 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=225, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:41.268   498   715 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=225, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:41.370   498  1718 D ConnectivityService: requestNetwork for uid/pid:10132/8136 activeRequest: null callbackRequest: 226 [NetworkRequest [ REQUEST id=227, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+11-20 14:40:41.374   498   715 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=227, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:41.374   498   715 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=227, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:41.374   498   715 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=227, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:41.374   498   715 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=227, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]
+11-20 14:40:41.562   498   722 D ConnectivityService: releasing NetworkRequest [ REQUEST id=225, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ] (release request)
+11-20 14:40:41.562   498   722 D ConnectivityService: releasing NetworkRequest [ REQUEST id=227, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ] (release request)

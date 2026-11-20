@@ -14,7 +14,7 @@ dump() { # dump <tag> — retry until non-trivial tree (uiautomator пусто, 
   for _ in 1 2 3 4 5 6 7 8; do
     adb shell uiautomator dump /sdcard/ui.xml >/dev/null 2>&1
     adb pull /sdcard/ui.xml "$OUT/$1.xml" >/dev/null 2>&1 || true
-    if [ -f "$OUT/$1.xml" ] && [ "$(wc -c < "$OUT/$1.xml")" -gt 3000 ]; then return 0; fi
+    if [ -f "$OUT/$1.xml" ] && [ "$(wc -c < "$OUT/$1.xml")" -gt 8000 ]; then return 0; fi
     sleep 2
   done
   adb shell dumpsys window 2>/dev/null | grep -E 'mCurrentFocus' | head -2
@@ -164,12 +164,16 @@ shot 09b_a11y_settled
 dump ui_a11y_settled
 grep -oE 'text="[^"]+"|content-desc="[^"]*"' "$OUT/ui_a11y_settled.xml" 2>/dev/null | head -25
 
-say "enable toggle (1 tap)"
+say "enable toggle (1 tap + system modal)"
 python3 scripts/tap.py "$OUT/ui_a11y_settled.xml" '^Use Notes Lite$' || adb shell input tap 262 261
-sleep2 3
+sleep2 2
 shot 11_toggle_on
+dump ui_confirm_allow
+python3 scripts/tap.py "$OUT/ui_confirm_allow.xml" '^(allow|разрешить)$' || true
+sleep2 3
+shot 12_toggle_done
 adb shell settings get secure enabled_accessibility_services 2>&1
-adb shell dumpsys accessibility 2>/dev/null | grep -i noteslite | head -3
+adb shell dumpsys accessibility 2>/dev/null | grep -iE 'noteslite|bound' | head -5
 opget
 
 say "state summary"

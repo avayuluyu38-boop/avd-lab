@@ -8,6 +8,9 @@ on:
       image:
         description: "playstore | apis"
         default: playstore
+      api:
+        description: "android api level"
+        default: "34"
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -26,7 +29,7 @@ jobs:
         env:
           MODE: ${{ github.event.inputs.mode }}
         with:
-          api-level: 34
+          api-level: ${{ github.event.inputs.api }}
           target: ${{ github.event.inputs.image }}
           arch: x86_64
           force-avd-creation: true
@@ -41,6 +44,6 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: run-${{ github.event.inputs.mode }}-${{ github.event.inputs.image }}
+          name: run-${{ github.event.inputs.mode }}-${{ github.event.inputs.image }}-${{ github.event.inputs.api }}
           path: out/**
           if-no-files-found: warn
