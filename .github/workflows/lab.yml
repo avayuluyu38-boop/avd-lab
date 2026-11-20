@@ -1,0 +1,46 @@
+name: lab
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "dropper | shell_pm | shell_vending"
+        default: dropper
+      image:
+        description: "playstore | apis"
+        default: playstore
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: KVM check
+        run: |
+          ls -l /dev/kvm || true
+          sudo usermod -aG kvm "$USER" || true
+          sudo chmod 666 /dev/kvm || true
+
+      - name: emulator + matrix
+        uses: reactivecircus/android-emulator-runner@v2
+        env:
+          MODE: ${{ github.event.inputs.mode }}
+        with:
+          api-level: 34
+          target: ${{ github.event.inputs.image }}
+          arch: x86_64
+          force-avd-creation: true
+          disable-animations: true
+          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none -no-snapshot
+          script: |
+            adb shell getprop ro.build.version.release
+            adb shell getprop ro.product.name
+            bash scripts/matrix.sh
+
+      - name: collect
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: run-${{ github.event.inputs.mode }}-${{ github.event.inputs.image }}
+          path: out/**
+          if-no-files-found: warn
