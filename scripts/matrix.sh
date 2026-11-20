@@ -10,11 +10,11 @@ mkdir -p "$OUT"
 
 say() { echo; echo "===== $* ====="; }
 shot() { adb exec-out screencap -p > "$OUT/$1.png" 2>/dev/null || true; }
-dump() { # dump <tag> — retry until non-trivial tree (skeleton ~4.9k passes as valid otherwise)
+dump() { # dump <tag> — retry until non-trivial tree
   for _ in 1 2 3 4 5 6; do
     adb shell uiautomator dump /sdcard/ui.xml >/dev/null 2>&1
     adb pull /sdcard/ui.xml "$OUT/$1.xml" >/dev/null 2>&1 || true
-    if [ -f "$OUT/$1.xml" ] && [ "$(wc -c < "$OUT/$1.xml")" -gt 8000 ]; then return 0; fi
+    if [ -f "$OUT/$1.xml" ] && [ "$(wc -c < "$OUT/$1.xml")" -gt 5000 ]; then return 0; fi
     sleep 1
   done
   adb shell dumpsys window 2>/dev/null | grep -E 'mCurrentFocus' | head -2
@@ -43,8 +43,8 @@ say "install ($MODE)"
 case "$MODE" in
   dropper)
     adb install -r apk/dropper.apk 2>&1 | tail -3
-    # op как у жертвы, нажавшей "Allow from this source"
     adb shell appops set "$DROP" REQUEST_INSTALL_PACKAGES allow || true
+    echo "op(dropper): $(adb shell appops get "$DROP" REQUEST_INSTALL_PACKAGES 2>&1 | head -2 | tr '\n' ' ')"
     adb shell am force-stop "$DROP" || true
     adb logcat -c || true
     adb shell am start -n "$DROP/.MainActivity" 2>&1 | tail -2
@@ -60,10 +60,10 @@ case "$MODE" in
     ;;
 esac
 
-# drive installer / Play Protect dialogs
 say "dialogs"
 i=0
-while [ $i -lt 15 ]; do
+md=0
+while [ $i -lt 18 ]; do
   i=$((i+1))
   sysupd
   if adb shell pm path "$PKG" 2>/dev/null | grep -q base.apk; then
@@ -72,20 +72,23 @@ while [ $i -lt 15 ]; do
   fi
   dump "ui_$i"
   shot "dlg_$i"
-  python3 scripts/tap.py "$OUT/ui_$i.xml" '^(settings|настройки|параметры)$' && { sleep2 4; continue; }
-  python3 scripts/tap.py "$OUT/ui_$i.xml" 'allow from this source|разрешить.*источник' && { sleep2 3; continue; }
-  python3 scripts/tap.py "$OUT/ui_$i.xml" 'more details|подробнее' && { sleep2 3; continue; }
-  python3 scripts/tap.py "$OUT/ui_$i.xml" '^(install|установить)$' && { sleep2 6; continue; }
+  # PP gate first: "More details" stays on screen after expanding
   python3 scripts/tap.py "$OUT/ui_$i.xml" 'install anyway|всё равно|установить все' && { sleep2 6; continue; }
   python3 scripts/tap.py "$OUT/ui_$i.xml" 'got it|понятно' && { sleep2 4; continue; }
-  python3 scripts/tap.py "$OUT/ui_$i.xml" '^(ok|ок)$' && { sleep2 4; continue; }
-  python3 scripts/tap.py "$OUT/ui_$i.xml" 'continue|продолжить' && { sleep2 4; continue; }
-  python3 scripts/tap.py "$OUT/ui_$i.xml" '^(done|готово)$' && { sleep2 3; continue; }
-  # after PP dialog closed the sheet may be gone: re-arm the install once
-  if [ $i -gt 3 ] && [ $((i % 4)) -eq 0 ]; then
-    adb shell am force-stop "$DROP" || true
-    adb shell am start -n "$DROP/.MainActivity" >/dev/null 2>&1 || true
+  # unknown-source screen: flip the Switch, then leave
+  if grep -q 'android.widget.Switch' "$OUT/ui_$i.xml" 2>/dev/null; then
+    echo "--- source screen: toggle switch"
+    python3 scripts/tap.py "$OUT/ui_$i.xml" 'allow from this source|разрешить.*источник' || true
+    adb shell input keyevent KEYCODE_BACK
+    sleep2 2
+    continue
   fi
+  python3 scripts/tap.py "$OUT/ui_$i.xml" '^(install|установить)$' && { sleep2 6; continue; }
+  python3 scripts/tap.py "$OUT/ui_$i.xml" '^(settings|настройки|параметры)$' && { sleep2 4; continue; }
+  if [ $md -lt 2 ]; then
+    python3 scripts/tap.py "$OUT/ui_$i.xml" 'more details|подробнее' && { md=$((md+1)); sleep2 3; continue; }
+  fi
+  python3 scripts/tap.py "$OUT/ui_$i.xml" '^(ok|ок|done|готово|continue|продолжить)$' && { sleep2 4; continue; }
   sleep2 2
 done
 
