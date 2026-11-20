@@ -43,6 +43,13 @@ adb shell settings put global window_animation_scale 0
 adb shell settings put global transition_animation_scale 0
 adb shell settings put global animator_duration_scale 0
 adb shell svc power stayon true
+# keyguard: after boot the lockscreen can cover everything and every dialog tap
+# misses (A16 run 44789866228 sat on "Unlock for all features" for 10 passes).
+unlock() {
+  adb shell input keyevent KEYCODE_WAKEUP >/dev/null 2>&1 || true
+  adb shell wm dismiss-keyguard >/dev/null 2>&1 || true
+}
+unlock
 adb shell input keyevent KEYCODE_WAKEUP || true
 adb shell locksettings set-pin 2589 2>&1 || true
 adb shell wm dismiss-keyguard || true
@@ -80,6 +87,7 @@ i=0
 md=0
 while [ $i -lt 10 ]; do
   i=$((i+1))
+  unlock
   sysupd
   if adb shell pm path "$PKG" 2>/dev/null | grep -q base.apk; then
     echo "payload installed at pass $i"
