@@ -54,7 +54,7 @@ say "install ($MODE)"
 case "$MODE" in
   dropper)
     adb install -r apk/dropper.apk 2>&1 | tail -3
-    adb shell appops set "$DROP" REQUEST_INSTALL_PACKAGES allow || true
+    setop=$(adb shell appops set "$DROP" REQUEST_INSTALL_PACKAGES allow 2>&1); echo "set op: $setop"
     echo "op(dropper): $(adb shell appops get "$DROP" REQUEST_INSTALL_PACKAGES 2>&1 | head -2 | tr '\n' ' ')"
     adb shell am force-stop "$DROP" || true
     adb logcat -c || true
@@ -78,7 +78,7 @@ esac
 say "dialogs"
 i=0
 md=0
-while [ $i -lt 18 ]; do
+while [ $i -lt 10 ]; do
   i=$((i+1))
   sysupd
   if adb shell pm path "$PKG" 2>/dev/null | grep -q base.apk; then
@@ -90,8 +90,10 @@ while [ $i -lt 18 ]; do
   # PP gate first: "More details" stays on screen after expanding
   python3 scripts/tap.py "$OUT/ui_$i.xml" 'install anyway|всё равно|установить все' && { sleep2 6; continue; }
   python3 scripts/tap.py "$OUT/ui_$i.xml" 'got it|понятно' && { sleep2 4; continue; }
-  # unknown-source screen: flip the Switch, then leave
-  if grep -q 'android.widget.Switch' "$OUT/ui_$i.xml" 2>/dev/null; then
+  # unknown-source screen: flip the Switch, then leave. A15/A16 use a Compose
+  # row (checkable="true", no android.widget.Switch class), so match the label
+  # case-insensitively and fall back to a checkable row.
+  if grep -qiE 'allow from this source|android.widget.Switch|checkable="true"' "$OUT/ui_$i.xml" 2>/dev/null; then
     echo "--- source screen: toggle switch"
     python3 scripts/tap.py "$OUT/ui_$i.xml" 'allow from this source|разрешить.*источник' || true
     adb shell input keyevent KEYCODE_BACK
