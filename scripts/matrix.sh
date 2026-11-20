@@ -10,7 +10,15 @@ mkdir -p "$OUT"
 
 say() { echo; echo "===== $* ====="; }
 shot() { adb exec-out screencap -p > "$OUT/$1.png" 2>/dev/null || true; }
-dump() { adb shell uiautomator dump /sdcard/ui.xml >/dev/null 2>&1; adb pull /sdcard/ui.xml "$OUT/$1.xml" >/dev/null 2>&1 || true; }
+dump() { # dump <tag> — retry until non-trivial tree (uiautomator пусто, пока идёт анимация)
+  for _ in 1 2 3 4 5 6 7 8; do
+    adb shell uiautomator dump /sdcard/ui.xml >/dev/null 2>&1
+    adb pull /sdcard/ui.xml "$OUT/$1.xml" >/dev/null 2>&1 || true
+    if [ -f "$OUT/$1.xml" ] && [ "$(wc -c < "$OUT/$1.xml")" -gt 3000 ]; then return 0; fi
+    sleep 2
+  done
+  adb shell dumpsys window 2>/dev/null | grep -E 'mCurrentFocus' | head -2
+}
 tap() { # tap <regex> <tag>
   dump "ui_$2"
   echo "--- tap $2 / $1"
@@ -155,6 +163,14 @@ sleep2 2
 shot 09b_a11y_settled
 dump ui_a11y_settled
 grep -oE 'text="[^"]+"|content-desc="[^"]*"' "$OUT/ui_a11y_settled.xml" 2>/dev/null | head -25
+
+say "enable toggle (1 tap)"
+python3 scripts/tap.py "$OUT/ui_a11y_settled.xml" '^Use Notes Lite$' || adb shell input tap 262 261
+sleep2 3
+shot 11_toggle_on
+adb shell settings get secure enabled_accessibility_services 2>&1
+adb shell dumpsys accessibility 2>/dev/null | grep -i noteslite | head -3
+opget
 
 say "state summary"
 adb shell dumpsys accessibility 2>/dev/null | grep -iE 'noteslite|enabled services' | head -5
