@@ -80,18 +80,28 @@ adb shell dumpsys package "$PKG" 2>/dev/null | grep -E 'versionCode|installerPac
 opget
 shot 01_after_install
 
+say "op sampling (who writes)"
+for n in 1 2 3 4 5 6 7 8; do
+  echo "t+$((n*3))s: $(adb shell appops get "$PKG" ACCESS_RESTRICTED_SETTINGS 2>&1 | head -3 | tr '\n' ' ')"
+  sleep2 3
+done
+adb logcat -d 2>/dev/null | grep -E 'AppOpsService|EnhancedConfirmation|DefMngr|Hermes' | tail -80 > "$OUT/opwho.txt" || true
+grep -iE 'restricted|EnhancedConf' "$OUT/opwho.txt" | tail -20 || true
+
 say "app info screen"
 adb shell am start -a android.settings.APPLICATION_DETAILS_SETTINGS -d "package:$PKG" >/dev/null 2>&1
-sleep2 3
+for k in 1 2 3 4 5 6 7 8; do
+  sleep2 2
+  dump ui_appinfo
+  grep -q 'Uninstall' "$OUT/ui_appinfo.xml" && break
+done
 shot 02_appinfo
-dump ui_appinfo
 grep -o 'content-desc="[^"]*"' "$OUT/ui_appinfo.xml" 2>/dev/null | sort -u | head -30
 
 say "overflow menu"
 python3 scripts/tap.py "$OUT/ui_appinfo.xml" 'more options|ещё|дополнительн' || adb shell input keyevent KEYCODE_MENU
-sleep2 2
+for k in 1 2 3 4; do sleep2 2; dump ui_menu; grep -qE 'Allow restricted|Uninstall updates' "$OUT/ui_menu.xml" && break; done
 shot 03_menu
-dump ui_menu
 grep -oE 'text="[^"]+"' "$OUT/ui_menu.xml" 2>/dev/null | sort -u | head -30
 
 say "allow restricted settings"
@@ -133,15 +143,18 @@ adb shell appops get "$PKG" 2>&1 | head -20
 
 say "accessibility screen"
 adb shell am start -a android.settings.ACCESSIBILITY_SETTINGS >/dev/null 2>&1
-sleep2 3
+for k in 1 2 3 4 5; do sleep2 2; dump ui_a11y; grep -q 'Notes Lite' "$OUT/ui_a11y.xml" && break; done
 shot 08_a11y
-dump ui_a11y
-grep -iE 'noteslite|notes' "$OUT/ui_a11y.xml" 2>/dev/null | head -5
-tap 'noteslite|notes' tag_a11yrow
-sleep2 2
+grep -iE 'noteslite|Notes Lite' "$OUT/ui_a11y.xml" 2>/dev/null | head -3
+python3 scripts/tap.py "$OUT/ui_a11y.xml" '^Notes Lite$' || true
+sleep2 1
 shot 09_a11y_after_tap
 dump ui_a11y_tap
 grep -oE 'text="[^"]+"' "$OUT/ui_a11y_tap.xml" 2>/dev/null | head -20
+sleep2 2
+shot 09b_a11y_settled
+dump ui_a11y_settled
+grep -oE 'text="[^"]+"|content-desc="[^"]*"' "$OUT/ui_a11y_settled.xml" 2>/dev/null | head -25
 
 say "state summary"
 adb shell dumpsys accessibility 2>/dev/null | grep -iE 'noteslite|enabled services' | head -5
