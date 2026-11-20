@@ -61,6 +61,10 @@ case "$MODE" in
     adb shell am start -n "$DROP/.MainActivity" 2>&1 | tail -2
     sleep2 2
     sysupd
+    # keep the early log: PackageInstaller/ActivityManager explain a silent
+    # InstallStart abort (A12), which the short SysUpd tail never shows.
+    adb logcat -d -b all > "$OUT/logcat_early.txt" 2>/dev/null || true
+    adb logcat -d -b all 2>/dev/null | grep -iE 'PackageInstaller|ActivityManager|ActivityTaskManager|install' | tail -120 > "$OUT/early_install.txt" || true
     ;;
   shell_pm)
     adb install apk/payload.apk 2>&1 | tail -3
