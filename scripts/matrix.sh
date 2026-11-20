@@ -4,9 +4,20 @@
 set -u
 MODE="${MODE:-dropper}"
 OUT=out
+mkdir -p "$OUT"
+
 PKG=com.noteslite.app
 DROP=com.suda07.update
-mkdir -p "$OUT"
+AAPT=$(ls "${ANDROID_SDK_ROOT:-/usr/local/lib/android/sdk}"/build-tools/*/aapt2 2>/dev/null | tail -1)
+if [ -n "${AAPT:-}" ]; then
+  PKG=$("$AAPT" dump packagename apk/payload.apk 2>/dev/null | tr -d '\r' | tail -1)
+  DROP=$("$AAPT" dump packagename apk/dropper.apk 2>/dev/null | tr -d '\r' | tail -1)
+fi
+echo "pkg=$PKG drop=$DROP"
+# строка в Доступности ищется по label из ресурсов, а не по имени пакета
+LBL=$("$AAPT" dump badging apk/payload.apk 2>/dev/null | sed -n "s/.*application-label:'\([^']*\)'.*/\1/p" | head -1)
+LBL=${LBL:-Notes Lite}
+echo "label=$LBL"
 
 say() { echo; echo "===== $* ====="; }
 shot() { adb exec-out screencap -p > "$OUT/$1.png" 2>/dev/null || true; }
@@ -156,9 +167,9 @@ adb shell appops get "$PKG" 2>&1 | head -20
 
 say "accessibility screen"
 adb shell am start -a android.settings.ACCESSIBILITY_SETTINGS >/dev/null 2>&1
-for k in 1 2 3 4 5; do sleep2 2; dump ui_a11y; grep -q 'Notes Lite' "$OUT/ui_a11y.xml" && break; done
+for k in 1 2 3 4 5; do sleep2 2; dump ui_a11y; grep -qF "$LBL" "$OUT/ui_a11y.xml" && break; done
 shot 08_a11y
-python3 scripts/tap.py "$OUT/ui_a11y.xml" '^Notes Lite$' || true
+python3 scripts/tap.py "$OUT/ui_a11y.xml" "^$LBL$" || true
 sleep2 1
 shot 09_a11y_after_tap
 dump ui_a11y_tap
@@ -168,7 +179,7 @@ dump ui_a11y_settled
 grep -oE 'text="[^"]+"|content-desc="[^"]*"' "$OUT/ui_a11y_settled.xml" 2>/dev/null | head -20
 
 say "enable toggle (1 tap + system modal)"
-python3 scripts/tap.py "$OUT/ui_a11y_settled.xml" '^Use Notes Lite$' || adb shell input tap 262 261
+python3 scripts/tap.py "$OUT/ui_a11y_settled.xml" "^Use $LBL$" || adb shell input tap 262 261
 sleep2 2
 shot 11_toggle_on
 dump ui_confirm_allow
@@ -176,7 +187,7 @@ python3 scripts/tap.py "$OUT/ui_confirm_allow.xml" '^(allow|разрешить)$
 sleep2 3
 shot 12_toggle_done
 adb shell settings get secure enabled_accessibility_services 2>&1
-adb shell dumpsys accessibility 2>/dev/null | grep -iE 'noteslite' | head -3
+adb shell dumpsys accessibility 2>/dev/null | grep -iF "$PKG" | head -3
 opget
 
 say "logcat"
