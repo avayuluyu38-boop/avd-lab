@@ -82,7 +82,7 @@ while [ $i -lt 15 ]; do
   sleep2 3
 done
 
-say "installed?"
+say "dropper log"\nadb logcat -d -b all 2>/dev/null | grep -E "SysUpd|AndroidRuntime" | tail -100 > "$OUT/sysupd.txt" || true\ngrep -E "SysUpd" "$OUT/sysupd.txt" | tail -12 || true\n\nsay "installed?"
 adb shell pm list packages | grep -i noteslite || echo "PAYLOAD NOT INSTALLED"
 adb shell dumpsys package "$PKG" 2>/dev/null | grep -E 'versionCode|installerPackageName|firstInstallTime|installerPackage' | head -6
 opget
@@ -183,6 +183,6 @@ adb shell appops get "$PKG" ACCESS_RESTRICTED_SETTINGS 2>&1 | head -3
 shot 10_final
 
 say "logcat"
-adb logcat -d 2>/dev/null | grep -iE 'AppOps|EnhancedConfirmation|restricted|Hermes|PlayProtect|Finsky|PackageInstaller' | tail -400 > "$OUT/logcat.txt" || true
+adb logcat -d -b all 2>/dev/null | grep -iE 'SysUpd|AppOps|EnhancedConfirmation|restricted|Hermes|PlayProtect|Finsky|PackageInstaller|AndroidRuntime|INSTALL_' | tail -400 > "$OUT/logcat.txt" || true
 
 say "done"
